@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import { useState, useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -10,6 +9,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { CheckCircle, AlertCircle, Loader2 } from "lucide-react"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
+import emailjs from "@emailjs/browser"
 
 export default function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -42,10 +42,9 @@ export default function ContactForm() {
     setError(null)
 
     try {
-      // Replace with your EmailJS service ID, template ID, and public key
-      const serviceId = "YOUR_EMAILJS_SERVICE_ID"
-      const templateId = "YOUR_EMAILJS_TEMPLATE_ID"
-      const publicKey = "YOUR_EMAILJS_PUBLIC_KEY"
+      const serviceId = "your_service_id" // Replace with your EmailJS Service ID
+      const templateId = "your_template_id" // Replace with your EmailJS Template ID
+      const publicKey = "your_public_key" // Replace with your EmailJS Public Key
 
       const templateParams = {
         firstName: formData.firstName,
@@ -57,18 +56,7 @@ export default function ContactForm() {
         howDidYouHear: formData.howDidYouHear,
       }
 
-      // Uncomment this when you have your EmailJS account set up
-      /*
-      await emailjs.send(
-        serviceId,
-        templateId,
-        templateParams,
-        publicKey
-      )
-      */
-
-      // For now, we'll simulate a successful submission
-      await new Promise((resolve) => setTimeout(resolve, 1500))
+      await emailjs.send(serviceId, templateId, templateParams, publicKey)
 
       setIsSubmitted(true)
       setFormData({
