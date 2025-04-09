@@ -70,7 +70,7 @@ export default function Home() {
         url="https://www.iecservices.org"
         description="Your trusted partner for educational opportunities in Canada since 2006. We provide comprehensive services for international students seeking quality education."
         address={{
-          streetAddress: "123 Education Avenue, Suite 200",
+          streetAddress: "125 Lakeshore Road East, suite 300",
           addressLocality: "Toronto",
           addressRegion: "ON",
           postalCode: "M5V 2K7",
@@ -827,11 +827,10 @@ export default function Home() {
                   <div>
                     <p className="font-medium text-blue-950">Visit Us</p>
                     <p className="text-gray-700">
-                      123 Education Avenue, Suite 200
+                      125 Lakehore Road East
                       <br />
-                      Toronto, ON M5V 2K7
-                      <br />
-                      Canada
+Suite 300                      <br />
+                      Oakville, Ontario L6J1H3
                     </p>
                   </div>
                 </div>

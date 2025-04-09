@@ -85,7 +85,7 @@ export default function PartnersPage() {
                 description:
                   "One of Canada's most prestigious universities, offering a wide range of undergraduate and graduate programs across various disciplines.",
                 image:
-                  "https://images.unsplash.com/photo-1569523276741-567df2a69a82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+                  "https://www.trinity.utoronto.ca/wp-content/uploads/2019/01/trinity-home-wide-01.jpg",
                 benefits: [
                   "Priority application processing",
                   "Exclusive scholarship opportunities",
@@ -117,6 +117,22 @@ export default function PartnersPage() {
                 benefits: ["Guaranteed admission pathways", "Co-op opportunities", "Career placement services"],
                 ranking: "Top 5 Colleges in Ontario",
                 programs: 290,
+              },
+              {
+                name: "Mohawk College",
+                type: "College",
+                location: "Hamilton, Ontario",
+                description:
+                  "A leading college known for its innovative programs, applied research, and strong industry partnerships, providing hands-on learning experiences.",
+                image:
+                  "https://www.mohawkcollege.ca/sites/default/files/Campuses%20and%20Maps/ff-fennell-exterior2-820x370.png",
+                benefits: [
+                  "Industry-connected programs",
+                  "Work-integrated learning",
+                  "Student success services",
+                ],
+                ranking: "Top Ontario College",
+                programs: 150,
               },
             ].map((institution, index) => (
               <Card key={index} className="overflow-hidden h-full flex flex-col">
@@ -199,7 +215,7 @@ export default function PartnersPage() {
                     name: "University of Toronto",
                     location: "Toronto, Ontario",
                     image:
-                      "https://images.unsplash.com/photo-1569523276741-567df2a69a82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+                      "https://www.trinity.utoronto.ca/wp-content/uploads/2019/01/trinity-home-wide-01.jpg",
                     programs: ["Business", "Engineering", "Medicine", "Arts & Science"],
                   },
                   {
@@ -213,7 +229,7 @@ export default function PartnersPage() {
                     name: "University of British Columbia",
                     location: "Vancouver, British Columbia",
                     image:
-                      "https://images.unsplash.com/photo-1594310424553-9e3b1a7aec2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+                      "https://images.shiksha.com/mediadata/images/1533551492phpLKGGFI_g.jpg",
                     programs: ["Computer Science", "Environmental Studies", "Business", "Arts"],
                   },
                   {

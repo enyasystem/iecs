@@ -164,11 +164,11 @@ export default function PrivacyPolicy() {
             <p className="text-gray-700 mb-6">
               International Education Consultancy Services Inc.
               <br />
-              123 Education Avenue, Suite 200
+              125 Lakeshore Road East
               <br />
-              Toronto, ON M5V 2K7
+              Suite 300
               <br />
-              Canada
+              Oakvile, Ontario L6J1H3
               <br />
               Phone: (905) 226-7315
               <br />

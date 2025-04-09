@@ -178,9 +178,9 @@ export default function TermsOfService() {
             <p className="text-gray-700 mb-6">
               International Education Consultancy Services Inc.
               <br />
-              123 Education Avenue, Suite 200
+              125 Lakeshore Road East, Suite 300
               <br />
-              Toronto, ON M5V 2K7
+              Oakville, Ontario L6J1H3
               <br />
               Canada
               <br />

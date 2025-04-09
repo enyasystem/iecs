@@ -316,14 +316,14 @@ export default function AboutPage() {
                 flag: "🇳🇬",
                 students: "1,800+",
                 image:
-                  "https://images.unsplash.com/photo-1594228734226-4d3b339c7d95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+                  "https://images.unsplash.com/photo-1618828665011-0abd973f7bb8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TmlnZXJpYXxlbnwwfHwwfHx8MA%3D%3D",
               },
               {
                 country: "Ghana",
                 flag: "🇬🇭",
                 students: "950+",
                 image:
-                  "https://images.unsplash.com/photo-1603792582751-0abe785846f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+                  "https://media.istockphoto.com/id/2189209990/photo/high-angle-view-of-townscape-against-sky.webp?s=2048x2048&w=is&k=20&c=ibtlJgOUjzayeZ1TNV-Hyq3KTfOHSy8xo64G9zdu66I=",
               },
               {
                 country: "South Africa",
@@ -365,7 +365,7 @@ export default function AboutPage() {
                 flag: "🌎",
                 students: "250+",
                 image:
-                  "https://images.unsplash.com/photo-1526778548025-fa2f459cd5ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1333&q=80",
+                  "https://images.unsplash.com/photo-1633095975779-fd354aa0dc95?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fE90aGVyJTIwQ291bnRyaWVzfGVufDB8fDB8fHww",
               },
             ].map((item, index) => (
               <div

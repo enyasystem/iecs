@@ -83,9 +83,9 @@ export default function ContactPage() {
                   <div>
                     <p className="font-medium text-blue-950 text-lg">Visit Us</p>
                     <p className="text-gray-700">
-                      123 Education Avenue, Suite 200
+                    125 Lakeshore Road East, Suite 300
                       <br />
-                      Toronto, ON M5V 2K7
+Oakville, Ontario L6J1H3
                       <br />
                       Canada
                     </p>
@@ -112,7 +112,8 @@ export default function ContactPage() {
                     <Globe className="h-5 w-5 text-[#D4AF37] mr-3 mt-0.5 flex-shrink-0" />
                     <div>
                       <p className="font-medium text-blue-950">Lagos, Nigeria</p>
-                      <p className="text-gray-700">15 Adebayo Street, Victoria Island</p>
+                      <p className="text-gray-700">59A Muritala Eletu way Osapa London</p>
+                      <p className="text-gray-700">Lekki, Lagos</p>
                       <p className="text-gray-700">Phone: +234 812 345 6789</p>
                     </div>
                   </div>
@@ -174,11 +175,11 @@ export default function ContactPage() {
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-blue-950 mb-2">Toronto Office</h3>
                   <p className="text-gray-700 mb-4">
-                    123 Education Avenue, Suite 200
+                    125 Lakeshore Road East
                     <br />
-                    Toronto, ON M5V 2K7
+                    suite 300
                     <br />
-                    Canada
+                    Oakvile, Ontario L6J1H3
                   </p>
                   <div className="flex space-x-4">
                     <Button variant="outline" size="sm">
@@ -206,11 +207,10 @@ export default function ContactPage() {
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-blue-950 mb-2">Lagos Office</h3>
                   <p className="text-gray-700 mb-4">
-                    15 Adebayo Street
-                    <br />
+59 Muriatala Eletu way Osapa London                    <br />
                     Victoria Island
                     <br />
-                    Lagos, Nigeria
+                    Lekki, Lagos
                   </p>
                   <div className="flex space-x-4">
                     <Button variant="outline" size="sm">

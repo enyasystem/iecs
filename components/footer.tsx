@@ -96,9 +96,9 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-[#D4AF37] mt-0.5" />
                 <p className="text-gray-300">
-                  123 Education Avenue, Suite 200
+                125 Lakeshore Road East, Suite 300
                   <br />
-                  Toronto, ON M5V 2K7
+                  Oakville, Ontario L6J1H3
                   <br />
                   Canada
                 </p>
