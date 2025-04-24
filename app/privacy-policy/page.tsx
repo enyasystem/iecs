@@ -170,7 +170,11 @@ export default function PrivacyPolicy() {
               <br />
               Oakvile, Ontario L6J1H3
               <br />
-              Phone: (905) 226-7315
+              Phone: (289) 644-2285
+                
+              <br />
+              Phone: (289) 644-2288
+              
               <br />
               Email: info@iecservices.org
             </p>

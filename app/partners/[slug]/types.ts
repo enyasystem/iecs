@@ -1,11 +1,3 @@
-import { PageProps } from 'next'
-
-export type PartnerPageParams = {
-  params: {
-    slug: string
-  }
-}
-
 export interface PartnerData {
   name: string
   slug: string

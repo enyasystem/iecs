@@ -234,23 +234,26 @@ export default function NewsPage() {
       </section>
 
       {/* Newsletter Section */}
-      <section className="w-full py-16 bg-blue-950 text-white">
+      <section className="w-full py-16 bg-gradient-to-br from-blue-950 to-blue-900 text-white">
         <div className="container mx-auto px-4 text-center">
-          <div className="max-w-2xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4">Subscribe to Our Newsletter</h2>
-            <p className="text-white/80 mb-8">
+          <div className="max-w-2xl mx-auto space-y-6">
+            <span className="text-[#D4AF37] uppercase tracking-wider text-sm font-medium">Stay Connected</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Subscribe to Our Newsletter</h2>
+            <p className="text-white/80 text-lg">
               Stay updated with the latest news, educational opportunities, and immigration updates for international
               students.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Input
                 type="email"
                 placeholder="Your email address"
-                className="bg-white/10 border-white/20 text-white placeholder:text-white/50 max-w-md"
+                className="bg-white/10 border-white/20 text-white placeholder:text-white/50 max-w-md focus:ring-[#D4AF37]"
               />
-              <Button className="bg-[#D4AF37] hover:bg-[#C09C2C] text-blue-950 whitespace-nowrap">Subscribe Now</Button>
+              <Button className="bg-[#D4AF37] hover:bg-[#C09C2C] text-blue-950 whitespace-nowrap font-medium">
+                Subscribe Now
+              </Button>
             </div>
-            <p className="text-white/60 text-sm mt-4">We respect your privacy. Unsubscribe at any time.</p>
+            <p className="text-white/60 text-sm">We respect your privacy. Unsubscribe at any time.</p>
           </div>
         </div>
       </section>

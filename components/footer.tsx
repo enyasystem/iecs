@@ -76,7 +76,8 @@ const Footer = () => {
               <li className="flex items-start">
                 <Phone className="h-5 w-5 mr-3 text-[#D4AF37] mt-0.5" />
                 <div>
-                  <p className="text-gray-300">Phone: (905) 226-7315</p>
+                  <p className="text-gray-300">Phone: (289) 644-2285</p>
+                  <p className="text-gray-300">Phone: (289) 644-2288</p>
                   <p className="text-gray-300">
                     <a
                       href="https://wa.me/2349099555573"

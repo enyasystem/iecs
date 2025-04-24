@@ -323,7 +323,7 @@ export default function AboutPage() {
                 flag: "🇬🇭",
                 students: "950+",
                 image:
-                  "https://media.istockphoto.com/id/2189209990/photo/high-angle-view-of-townscape-against-sky.webp?s=2048x2048&w=is&k=20&c=ibtlJgOUjzayeZ1TNV-Hyq3KTfOHSy8xo64G9zdu66I=",
+                  "https://upload.wikimedia.org/wikipedia/commons/b/b6/A_drone_footage_of_Accra_central%2C_Ghana.jpg",
               },
               {
                 country: "South Africa",

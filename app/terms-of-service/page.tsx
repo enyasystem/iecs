@@ -184,7 +184,9 @@ export default function TermsOfService() {
               <br />
               Canada
               <br />
-              Phone: (905) 226-7315
+              Phone: (289) 644-2285
+              <br />
+              (289) 644-2288
               <br />
               Email: info@iecservices.org
             </p>

@@ -60,7 +60,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-medium text-blue-950 text-lg">Call Us</p>
-                    <p className="text-gray-700">Phone: (905) 226-7315</p>
+                    <p className="text-gray-700">Phone: (289) 644-2285</p>
+                    <p className="text-gray-700">Phone: (289) 644-2288</p>
                     <p className="text-gray-700">WhatsApp: 09099555573</p>
                     <p className="text-gray-700 text-sm mt-1">Monday to Friday, 9:00 AM - 5:00 PM EST</p>
                   </div>
@@ -114,7 +115,7 @@ Oakville, Ontario L6J1H3
                       <p className="font-medium text-blue-950">Lagos, Nigeria</p>
                       <p className="text-gray-700">59A Muritala Eletu way Osapa London</p>
                       <p className="text-gray-700">Lekki, Lagos</p>
-                      <p className="text-gray-700">Phone: +234 812 345 6789</p>
+                      <p className="text-gray-700">Phone: +234 909 955 5573</p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -128,9 +129,13 @@ Oakville, Ontario L6J1H3
                   <div className="flex items-start">
                     <Globe className="h-5 w-5 text-[#D4AF37] mr-3 mt-0.5 flex-shrink-0" />
                     <div>
-                      <p className="font-medium text-blue-950">New Delhi, India</p>
-                      <p className="text-gray-700">42 Connaught Place, Central Delhi</p>
-                      <p className="text-gray-700">Phone: +91 98765 43210</p>
+                      <p className="font-medium text-blue-950">
+                    Gujarat 
+                    India </p>
+                      <p className="text-gray-700">208,Vatsal Avenue 
+                      Nehru park, Vastrapur</p>
+                      <p className="text-gray-700">Ahmedabad - 380015</p>
+                      <p className="text-gray-700">Phone: +91-9712885584 <b>(WhatsApp Only)</b></p>
                     </div>
                   </div>
                 </div>

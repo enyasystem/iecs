@@ -14,6 +14,7 @@ import {
   Facebook,
   Instagram,
   Linkedin,
+  BookOpen,
 } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
@@ -716,6 +717,62 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Become an Agent Section */}
+      <section className="w-full py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <div className="inline-block px-4 py-1 bg-blue-50 text-blue-950 rounded-full font-medium text-sm mb-4">
+              Partnership Opportunity
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mb-6">Become an Agent</h2>
+            <p className="text-lg text-gray-700">
+              Join our network of education consultants and help students achieve their dreams of studying in Canada.
+            </p>
+          </div>
+
+          <div className="max-w-2xl mx-auto bg-gray-50 p-8 rounded-lg shadow-md">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+              <div className="flex items-start space-x-3">
+                <CheckCircle className="h-6 w-6 text-[#D4AF37] mt-1" />
+                <div>
+                  <h3 className="font-semibold text-blue-950">Competitive Commission</h3>
+                  <p className="text-gray-600">Earn attractive commissions for successful student placements</p>
+                </div>
+              </div>
+              <div className="flex items-start space-x-3">
+                <BookOpen className="h-6 w-6 text-[#D4AF37] mt-1" />
+                <div>
+                  <h3 className="font-semibold text-blue-950">Training Support</h3>
+                  <p className="text-gray-600">Access comprehensive training and marketing materials</p>
+                </div>
+              </div>
+              <div className="flex items-start space-x-3">
+                <Users className="h-6 w-6 text-[#D4AF37] mt-1" />
+                <div>
+                  <h3 className="font-semibold text-blue-950">Dedicated Support</h3>
+                  <p className="text-gray-600">Get personalized support from our partnership team</p>
+                </div>
+              </div>
+              <div className="flex items-start space-x-3">
+                <Globe className="h-6 w-6 text-[#D4AF37] mt-1" />
+                <div>
+                  <h3 className="font-semibold text-blue-950">Global Network</h3>
+                  <p className="text-gray-600">Join our international network of education consultants</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <Link href="/become-agent">
+                <Button className="bg-blue-950 hover:bg-blue-900 text-white">
+                  Apply Now <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="w-full py-20 bg-blue-50">
         <div className="container mx-auto px-4">
@@ -798,7 +855,8 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="font-medium text-blue-950">Call Us</p>
-                    <p className="text-gray-700">Phone: (905) 226-7315</p>
+                    <p className="text-gray-700">Phone: (289) 644-2285</p>
+                    <p className="text-gray-700">Phone: (289) 644-2288</p>
                     <p className="text-gray-700">
                       <a
                         href="https://wa.me/2349099555573"

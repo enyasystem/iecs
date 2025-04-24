@@ -1,7 +1,6 @@
 "use client"
 
-import type React from "react"
-import { useState, useRef } from "react"
+import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
@@ -9,7 +8,6 @@ import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { CheckCircle, AlertCircle, Loader2 } from "lucide-react"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
-import emailjs from "@emailjs/browser"
 
 export default function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -24,8 +22,6 @@ export default function ContactForm() {
     message: "",
     howDidYouHear: "",
   })
-
-  const formRef = useRef<HTMLFormElement>(null)
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { id, value } = e.target
@@ -42,21 +38,20 @@ export default function ContactForm() {
     setError(null)
 
     try {
-      const serviceId = "your_service_id" // Replace with your EmailJS Service ID
-      const templateId = "your_template_id" // Replace with your EmailJS Template ID
-      const publicKey = "your_public_key" // Replace with your EmailJS Public Key
+      const response = await fetch("https://formspree.io/f/myzevdoo", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          ...formData,
+          subject: `New Inquiry from ${formData.firstName} ${formData.lastName}`,
+        }),
+      })
 
-      const templateParams = {
-        firstName: formData.firstName,
-        lastName: formData.lastName,
-        email: formData.email,
-        phone: formData.phone,
-        inquiryType: formData.inquiryType,
-        message: formData.message,
-        howDidYouHear: formData.howDidYouHear,
+      if (!response.ok) {
+        throw new Error("Submission failed")
       }
-
-      await emailjs.send(serviceId, templateId, templateParams, publicKey)
 
       setIsSubmitted(true)
       setFormData({
@@ -103,7 +98,7 @@ export default function ContactForm() {
         </Alert>
       )}
 
-      <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
+      <form onSubmit={handleSubmit} className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="space-y-2">
             <Label htmlFor="firstName">First Name *</Label>
