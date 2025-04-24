@@ -134,6 +134,54 @@ export default function PartnersPage() {
                 ranking: "Top Ontario College",
                 programs: 150,
               },
+              {
+                name: "Pavol Jozef Šafárik University (PJSU)",
+                type: "University",
+                location: "Košice, Slovakia",
+                description:
+                  "A leading Slovakian university renowned for its Faculty of Medicine, offering internationally recognized medical degrees in English.",
+                image:
+                  "https://www.upjs.sk/public/media/30999/lekarska-fakulta.jpg",
+                benefits: [
+                  "Affordable tuition fees",
+                  "Globally recognized MD degree",
+                  "English-taught medical programs",
+                ],
+                ranking: "Top Medical School in Slovakia",
+                programs: 30,
+              },
+              {
+                name: "Cyprus International University",
+                type: "University",
+                location: "Nicosia, Cyprus",
+                description:
+                  "A modern university offering a wide range of undergraduate and graduate programs, including medicine, with a diverse international student body.",
+                image:
+                  "https://www.ciu.edu.tr/sites/default/files/2021-04/ciu-campus-1.jpg",
+                benefits: [
+                  "Internationally accredited programs",
+                  "Modern campus facilities",
+                  "Supportive international student services",
+                ],
+                ranking: "Top University in Cyprus",
+                programs: 100,
+              },
+              {
+                name: "St. George's University",
+                type: "Medical School",
+                location: "St. George's, Grenada",
+                description:
+                  "A world-renowned medical school in the Caribbean, St. George's offers MD programs with clinical rotations in the US, UK, and Canada.",
+                image:
+                  "https://www.sgu.edu/wp-content/uploads/2017/07/SGU-campus-aerial.jpg",
+                benefits: [
+                  "US/UK/Canada clinical rotations",
+                  "High residency match rates",
+                  "Global alumni network",
+                ],
+                ranking: "Top Caribbean Medical School",
+                programs: 10,
+              },
             ].map((institution, index) => (
               <Card key={index} className="overflow-hidden h-full flex flex-col">
                 <div className="h-48 overflow-hidden">
