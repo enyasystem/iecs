@@ -141,7 +141,7 @@ export default function PartnersPage() {
                 description:
                   "A leading Slovakian university renowned for its Faculty of Medicine, offering internationally recognized medical degrees in English.",
                 image:
-                  "https://www.upjs.sk/public/media/30999/lekarska-fakulta.jpg",
+                  "/Faculty_of_Medicine_in_Kosice.jpg",
                 benefits: [
                   "Affordable tuition fees",
                   "Globally recognized MD degree",
@@ -157,7 +157,7 @@ export default function PartnersPage() {
                 description:
                   "A modern university offering a wide range of undergraduate and graduate programs, including medicine, with a diverse international student body.",
                 image:
-                  "https://www.ciu.edu.tr/sites/default/files/2021-04/ciu-campus-1.jpg",
+                  "https://images.adsttc.com/media/images/628e/5676/b206/2001/657c/4fdc/newsletter/cyprus-international-university-masterplan-arup_2.jpg?1653495426",
                 benefits: [
                   "Internationally accredited programs",
                   "Modern campus facilities",
@@ -173,7 +173,7 @@ export default function PartnersPage() {
                 description:
                   "A world-renowned medical school in the Caribbean, St. George's offers MD programs with clinical rotations in the US, UK, and Canada.",
                 image:
-                  "https://www.sgu.edu/wp-content/uploads/2017/07/SGU-campus-aerial.jpg",
+                  "https://static01.nyt.com/images/2014/08/03/education/edlife/03CARIB/CARIB-superJumbo.jpg?quality=75&auto=webp",
                 benefits: [
                   "US/UK/Canada clinical rotations",
                   "High residency match rates",
