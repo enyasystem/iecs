@@ -93,6 +93,7 @@ export default function PartnersPage() {
                 ],
                 ranking: "#1 in Canada",
                 programs: 700,
+                website: "https://www.utoronto.ca/",
               },
               {
                 name: "McGill University",
@@ -105,6 +106,7 @@ export default function PartnersPage() {
                 benefits: ["Application fee waivers", "Dedicated international student support", "Housing priority"],
                 ranking: "#2 in Canada",
                 programs: 400,
+                website: "https://www.mcgill.ca/",
               },
               {
                 name: "Seneca College",
@@ -117,6 +119,7 @@ export default function PartnersPage() {
                 benefits: ["Guaranteed admission pathways", "Co-op opportunities", "Career placement services"],
                 ranking: "Top 5 Colleges in Ontario",
                 programs: 290,
+                website: "https://www.senecacollege.ca/",
               },
               {
                 name: "Mohawk College",
@@ -133,6 +136,7 @@ export default function PartnersPage() {
                 ],
                 ranking: "Top Ontario College",
                 programs: 150,
+                website: "https://www.mohawkcollege.ca/",
               },
               {
                 name: "Pavol Jozef Šafárik University (PJSU)",
@@ -149,6 +153,7 @@ export default function PartnersPage() {
                 ],
                 ranking: "Top Medical School in Slovakia",
                 programs: 30,
+                website: "https://www.upjs.sk/en/",
               },
               {
                 name: "Cyprus International University",
@@ -165,6 +170,7 @@ export default function PartnersPage() {
                 ],
                 ranking: "Top University in Cyprus",
                 programs: 100,
+                website: "https://www.ciu.edu.tr/en",
               },
               {
                 name: "St. George's University",
@@ -181,6 +187,7 @@ export default function PartnersPage() {
                 ],
                 ranking: "Top Caribbean Medical School",
                 programs: 10,
+                website: "https://www.sgu.edu/",
               },
               {
                 name: "Ross University School of Medicine",
@@ -197,6 +204,7 @@ export default function PartnersPage() {
                 ],
                 ranking: "Top Caribbean Medical School",
                 programs: 12,
+                website: "https://medical.rossu.edu/",
               },
               {
                 name: "American University of the Caribbean School of Medicine",
@@ -213,6 +221,7 @@ export default function PartnersPage() {
                 ],
                 ranking: "Top Caribbean Medical School",
                 programs: 10,
+                website: "https://www.aucmed.edu/",
               },
             ].map((institution, index) => (
               <Card key={index} className="overflow-hidden h-full flex flex-col">
@@ -256,7 +265,7 @@ export default function PartnersPage() {
                   </div>
                 </CardContent>
                 <CardFooter className="border-t pt-4">
-                  <Link href={`/partners/${institution.name.toLowerCase().replace(/\s+/g, "-")}`} className="w-full">
+                  <Link href={institution.website || `/partners/${institution.name.toLowerCase().replace(/\s+/g, "-")}`} className="w-full" target={institution.website ? "_blank" : undefined} rel={institution.website ? "noopener noreferrer" : undefined}>
                     <Button className="w-full bg-[#D4AF37] hover:bg-[#C09C2C] text-blue-950">
                       View Institution Details
                     </Button>
@@ -297,6 +306,7 @@ export default function PartnersPage() {
                     image:
                       "https://www.trinity.utoronto.ca/wp-content/uploads/2019/01/trinity-home-wide-01.jpg",
                     programs: ["Business", "Engineering", "Medicine", "Arts & Science"],
+                    website: "https://www.utoronto.ca/",
                   },
                   {
                     name: "McGill University",
@@ -304,6 +314,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1580537659466-0a9bfa916a54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
                     programs: ["Law", "Medicine", "Engineering", "Business"],
+                    website: "https://www.mcgill.ca/",
                   },
                   {
                     name: "University of British Columbia",
@@ -311,6 +322,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.shiksha.com/mediadata/images/1533551492phpLKGGFI_g.jpg",
                     programs: ["Computer Science", "Environmental Studies", "Business", "Arts"],
+                    website: "https://www.ubc.ca/",
                   },
                   {
                     name: "University of Waterloo",
@@ -318,6 +330,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80",
                     programs: ["Computer Science", "Engineering", "Mathematics", "Health Sciences"],
+                    website: "https://uwaterloo.ca/",
                   },
                   {
                     name: "McMaster University",
@@ -325,6 +338,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
                     programs: ["Health Sciences", "Engineering", "Business", "Humanities"],
+                    website: "https://www.mcmaster.ca/",
                   },
                   {
                     name: "University of Alberta",
@@ -332,6 +346,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
                     programs: ["Engineering", "Business", "Sciences", "Arts"],
+                    website: "https://www.ualberta.ca/",
                   },
                   {
                     name: "Queen's University",
@@ -339,6 +354,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
                     programs: ["Commerce", "Engineering", "Arts", "Health Sciences"],
+                    website: "https://www.queensu.ca/",
                   },
                   {
                     name: "Western University",
@@ -346,6 +362,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1592280771190-3e2e4d571952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
                     programs: ["Business", "Medicine", "Law", "Engineering"],
+                    website: "https://www.uwo.ca/",
                   },
                 ].map((university, index) => (
                   <Card key={index} className="overflow-hidden group">
@@ -380,8 +397,10 @@ export default function PartnersPage() {
                     </CardContent>
                     <CardFooter className="pt-0">
                       <Link
-                        href={`/partners/${university.name.toLowerCase().replace(/\s+/g, "-")}`}
+                        href={university.website || `/partners/${university.name.toLowerCase().replace(/\s+/g, "-")}`}
                         className="text-blue-950 font-medium hover:text-[#D4AF37] text-sm inline-flex items-center"
+                        target={university.website ? "_blank" : undefined}
+                        rel={university.website ? "noopener noreferrer" : undefined}
                       >
                         View Details <ArrowRight className="ml-1 h-3 w-3" />
                       </Link>
@@ -400,6 +419,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1186&q=80",
                     programs: ["Business", "Technology", "Health Sciences", "Creative Arts"],
+                    website: "https://www.senecacollege.ca/",
                   },
                   {
                     name: "Humber College",
@@ -407,6 +427,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
                     programs: ["Media Studies", "Hospitality", "Engineering", "Business"],
+                    website: "https://www.humber.ca/",
                   },
                   {
                     name: "George Brown College",
@@ -414,6 +435,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
                     programs: ["Culinary Arts", "Design", "Health Sciences", "Business"],
+                    website: "https://www.georgebrown.ca/",
                   },
                   {
                     name: "Centennial College",
@@ -421,6 +443,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1517486808906-6ca8b3f8e1c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
                     programs: ["Aviation", "Business", "Engineering", "Hospitality"],
+                    website: "https://www.centennialcollege.ca/",
                   },
                   {
                     name: "Conestoga College",
@@ -428,6 +451,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
                     programs: ["Engineering", "IT", "Business", "Health"],
+                    website: "https://www.conestogac.on.ca/",
                   },
                   {
                     name: "Algonquin College",
@@ -435,6 +459,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
                     programs: ["Media", "Technology", "Health", "Business"],
+                    website: "https://www.algonquincollege.com/",
                   },
                   {
                     name: "Sheridan College",
@@ -442,6 +467,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
                     programs: ["Animation", "Design", "Business", "Technology"],
+                    website: "https://www.sheridancollege.ca/",
                   },
                   {
                     name: "Fanshawe College",
@@ -449,6 +475,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1517245859790-0a3449d1df0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
                     programs: ["Media", "Design", "Health", "Technology"],
+                    website: "https://www.fanshawec.ca/",
                   },
                 ].map((college, index) => (
                   <Card key={index} className="overflow-hidden group">
@@ -483,8 +510,10 @@ export default function PartnersPage() {
                     </CardContent>
                     <CardFooter className="pt-0">
                       <Link
-                        href={`/partners/${college.name.toLowerCase().replace(/\s+/g, "-")}`}
+                        href={college.website || `/partners/${college.name.toLowerCase().replace(/\s+/g, "-")}`}
                         className="text-blue-950 font-medium hover:text-[#D4AF37] text-sm inline-flex items-center"
+                        target={college.website ? "_blank" : undefined}
+                        rel={college.website ? "noopener noreferrer" : undefined}
                       >
                         View Details <ArrowRight className="ml-1 h-3 w-3" />
                       </Link>
@@ -503,6 +532,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
                     programs: ["Ontario Curriculum", "University Preparation", "ESL"],
+                    website: "https://www.tiaedu.ca/",
                   },
                   {
                     name: "Milton High School",
@@ -510,6 +540,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1232&q=80",
                     programs: ["IB Program", "STEM Focus", "Arts Program"],
+                    website: "https://www.miltonhighschool.ca/",
                   },
                   {
                     name: "Brampton Academy",
@@ -517,6 +548,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
                     programs: ["AP Courses", "University Preparation", "ESL"],
+                    website: "https://www.bramptonacademy.ca/",
                   },
                   {
                     name: "Mississauga Secondary School",
@@ -524,6 +556,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
                     programs: ["Canadian Curriculum", "STEM", "Arts"],
+                    website: "https://www.mississaugasecondary.ca/",
                   },
                   {
                     name: "Vancouver College",
@@ -531,6 +564,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
                     programs: ["BC Curriculum", "University Preparation", "ESL"],
+                    website: "https://www.vancouvercollege.ca/",
                   },
                   {
                     name: "Calgary International Academy",
@@ -538,6 +572,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1525921429624-479b6a26d84d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
                     programs: ["Alberta Curriculum", "IB Program", "ESL"],
+                    website: "https://www.calgaryacademy.com/",
                   },
                   {
                     name: "Montreal Prep School",
@@ -545,6 +580,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1580537659466-0a9bfa916a54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
                     programs: ["Quebec Curriculum", "Bilingual Education", "University Prep"],
+                    website: "https://www.montrealprepschool.ca/",
                   },
                   {
                     name: "Ottawa International School",
@@ -552,6 +588,7 @@ export default function PartnersPage() {
                     image:
                       "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
                     programs: ["IB Program", "Ontario Curriculum", "ESL"],
+                    website: "https://www.ottawainternationalschool.ca/",
                   },
                 ].map((school, index) => (
                   <Card key={index} className="overflow-hidden group">
@@ -586,8 +623,10 @@ export default function PartnersPage() {
                     </CardContent>
                     <CardFooter className="pt-0">
                       <Link
-                        href={`/partners/${school.name.toLowerCase().replace(/\s+/g, "-")}`}
+                        href={school.website || `/partners/${school.name.toLowerCase().replace(/\s+/g, "-")}`}
                         className="text-blue-950 font-medium hover:text-[#D4AF37] text-sm inline-flex items-center"
+                        target={school.website ? "_blank" : undefined}
+                        rel={school.website ? "noopener noreferrer" : undefined}
                       >
                         View Details <ArrowRight className="ml-1 h-3 w-3" />
                       </Link>
