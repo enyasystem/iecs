@@ -129,19 +129,19 @@ export default function AboutPage() {
                   description:
                     "Opened our first international office in Nigeria to better serve students from West Africa.",
                   image:
-                    "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+                    "https://www.qatarairways.com/content/dam/images/renditions/vertical-hd/destinations/nigeria/lagos/v-hd-lagos.jpg",
                 },
                 {
                   year: "2014",
                   title: "Milestone: 1,000 Students",
                   description: "Successfully placed our 1,000th student in Canadian educational institutions.",
                   image:
-                    "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+                    "https://canadainternationaleducation.ca/wp-content/uploads/2020/01/accomplishment-ceremony-education-graduation-267885.jpg",
                 },
                 {
                   year: "2018",
                   title: "Expansion to Asia",
-                  description: "Extended our services to India and China, opening offices in New Delhi and Shanghai.",
+                  description: "Extended our services to India and China, opening offices in Gujarat, India and Shanghai.",
                   image:
                     "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
                 },
