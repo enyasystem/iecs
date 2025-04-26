@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import type { Metadata } from "next"
 import { BreadcrumbStructuredData } from "@/components/seo/structured-data"
+import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "Our Team - Meet the Experts Behind IECS",
@@ -55,13 +56,13 @@ export default function TeamPage() {
               <div className="relative h-80 w-full">
                 <Image
                   src="/placeholder.svg?height=400&width=300"
-                  alt="Dr. Sarah Johnson"
+                  alt="Linda U. Okpala LL.B (Hons)"
                   fill
                   className="object-cover"
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-blue-950 mb-1">Dr. Sarah Johnson</h3>
+                <h3 className="text-xl font-bold text-blue-950 mb-1">Linda U. Okpala LL.B (Hons)</h3>
                 <p className="text-[#D4AF37] font-medium mb-4">Founder & CEO</p>
                 <p className="text-gray-700 mb-4">
                   With over 20 years of experience in international education, Dr. Johnson founded IECS to help students
@@ -287,16 +288,20 @@ export default function TeamPage() {
             Our experienced consultants are ready to help you achieve your educational goals in Canada.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button size="lg" className="bg-[#D4AF37] hover:bg-[#C09C27] text-blue-950">
-              Schedule a Consultation
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="border-white text-white bg-transparent hover:bg-transparent">
-              View Our Services
-            </Button>
+            <Link href="/contact">
+              <Button size="lg" className="bg-[#D4AF37] hover:bg-[#C09C27] text-blue-950">
+                Schedule a Consultation
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </Link>
+            <Link href="/services">
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="border-white text-white bg-transparent hover:bg-transparent">
+                View Our Services
+              </Button>
+            </Link>
           </div>
         </div>
       </section>

@@ -182,6 +182,38 @@ export default function PartnersPage() {
                 ranking: "Top Caribbean Medical School",
                 programs: 10,
               },
+              {
+                name: "Ross University School of Medicine",
+                type: "Medical School",
+                location: "Barbados (pre-clinical), US/UK/Canada (clinical)",
+                description:
+                  "A leading Caribbean medical school offering an MD program with clinical rotations in the US, UK, and Canada. Renowned for its global alumni network and high residency match rates.",
+                image:
+                  "https://medical.rossu.edu/sites/g/files/krcnkv261/files/styles/atge_crop_freeform_md/public/2024-06/campus-hero-188a6014.webp?h=81a7a8a5&itok=-mBlkz0R",
+                benefits: [
+                  "US/UK/Canada clinical rotations",
+                  "Accelerated MD program",
+                  "Strong residency match support",
+                ],
+                ranking: "Top Caribbean Medical School",
+                programs: 12,
+              },
+              {
+                name: "American University of the Caribbean School of Medicine",
+                type: "Medical School",
+                location: "Sint Maarten (pre-clinical), US/UK (clinical)",
+                description:
+                  "A respected Caribbean medical school with a US-modeled curriculum, offering clinical rotations in the US and UK, and a supportive international student environment.",
+                image:
+                  "https://www.princetonreview.com/cms-content/American_University_of_Caribbean_Med.jpg",
+                benefits: [
+                  "US/UK clinical rotations",
+                  "Personalized student support",
+                  "USMLE preparation assistance",
+                ],
+                ranking: "Top Caribbean Medical School",
+                programs: 10,
+              },
             ].map((institution, index) => (
               <Card key={index} className="overflow-hidden h-full flex flex-col">
                 <div className="h-48 overflow-hidden">

@@ -377,16 +377,18 @@ Yangpu District, Shanghai
             Contact us today and take the first step towards achieving your educational and career goals in Canada.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button size="lg" className="bg-[#D4AF37] hover:bg-[#C09C27] text-blue-950">
+            <a href="#contact-form-section" className="inline-flex items-center justify-center px-6 py-3 text-lg font-medium bg-[#D4AF37] hover:bg-[#C09C27] text-blue-950 rounded-md transition-colors duration-200">
               Schedule a Consultation
               <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="border-white text-white bg-transparent hover:bg-transparent">
-              View Our Services
-            </Button>
+            </a>
+            <a href="/services">
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="border-white text-white bg-transparent hover:bg-transparent">
+                View Our Services
+              </Button>
+            </a>
           </div>
         </div>
       </section>
