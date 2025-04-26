@@ -654,18 +654,18 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">
-            <PartnerLogo name="University of Toronto" logo="https://upload.wikimedia.org/wikipedia/en/7/7e/University_of_Toronto_coat_of_arms.svg" />
-            <PartnerLogo name="McGill University" logo="https://upload.wikimedia.org/wikipedia/en/6/6d/McGill_University_Coat_of_Arms.svg" />
-            <PartnerLogo name="University of British Columbia" logo="https://upload.wikimedia.org/wikipedia/en/7/7b/University_of_British_Columbia_coat_of_arms.svg" />
-            <PartnerLogo name="University of Waterloo" logo="https://upload.wikimedia.org/wikipedia/en/2/2e/University_of_Waterloo_coat_of_arms.svg" />
-            <PartnerLogo name="McMaster University" logo="https://upload.wikimedia.org/wikipedia/en/7/7a/McMaster_University_coat_of_arms.svg" />
-            <PartnerLogo name="University of Alberta" logo="https://upload.wikimedia.org/wikipedia/en/7/7d/University_of_Alberta_coat_of_arms.svg" />
-            <PartnerLogo name="Queen's University" logo="https://upload.wikimedia.org/wikipedia/en/2/2e/Queen%27s_University_coat_of_arms.svg" />
-            <PartnerLogo name="Western University" logo="https://upload.wikimedia.org/wikipedia/en/6/6e/Western_University_Coat_of_Arms.svg" />
-            <PartnerLogo name="Dalhousie University" logo="https://upload.wikimedia.org/wikipedia/en/2/2a/Dalhousie_University_coat_of_arms.svg" />
-            <PartnerLogo name="York University" logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/York_University_logo.svg" />
-            <PartnerLogo name="Ryerson University" logo="https://upload.wikimedia.org/wikipedia/commons/2/2c/TMU_logo.svg" />
-            <PartnerLogo name="Milton High School" logo="/logos/milton-high-school.png" />
+            <PartnerLogo name="University of Toronto" logo="https://www.designyourway.net/blog/wp-content/uploads/2024/04/university-of-toronto-logo.jpg" link="https://future.utoronto.ca/apply/" />
+            <PartnerLogo name="McGill University" logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/29/McGill_University_CoA.svg/260px-McGill_University_CoA.svg.png" link="https://www.mcgill.ca/undergraduate-admissions/apply" />
+            <PartnerLogo name="University of British Columbia" logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/UBC_COA.svg/260px-UBC_COA.svg.png" link="https://you.ubc.ca/applying-ubc/" />
+            <PartnerLogo name="University of Waterloo" logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/University_of_Waterloo_seal.svg/270px-University_of_Waterloo_seal.svg.png" link="https://uwaterloo.ca/future-students/admissions" />
+            <PartnerLogo name="McMaster University" logo="https://upload.wikimedia.org/wikipedia/en/5/50/McMasterCoA.png" link="https://future.mcmaster.ca/apply/" />
+            <PartnerLogo name="University of Alberta" logo="https://upload.wikimedia.org/wikipedia/en/9/92/University_of_Alberta_Coat_of_Arms.png" link="https://www.ualberta.ca/admissions/undergraduate/admission/index.html" />
+            <PartnerLogo name="Queen's University" logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/70/QueensU_Crest.svg/225px-QueensU_Crest.svg.png" link="https://www.queensu.ca/admission/undergraduate-programs" />
+            <PartnerLogo name="Western University" logo="https://upload.wikimedia.org/wikipedia/en/8/89/UWOarms2014.jpg" link="https://welcome.uwo.ca/apply/index.html" />
+            <PartnerLogo name="Dalhousie University" logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Dalhousie_University_Seal.svg/270px-Dalhousie_University_Seal.svg.png" link="https://www.dal.ca/admissions.html" />
+            <PartnerLogo name="York University" logo="https://upload.wikimedia.org/wikipedia/commons/5/56/Yorkunicrest1.png" link="https://futurestudents.yorku.ca/apply" />
+            <PartnerLogo name="Toronto Metropolitan University" logo="https://upload.wikimedia.org/wikipedia/en/0/09/Ryerson_University_Crest.png" link="https://www.torontomu.ca/admissions/" />
+            <PartnerLogo name="Milton High School" logo="https://miltonhighschool.ng/wp-content/uploads/2024/11/Milton-High-School-768x760.jpg" link="https://miltonhighschool.ng" />
           </div>
         </div>
       </section>
