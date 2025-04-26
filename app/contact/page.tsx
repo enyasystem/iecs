@@ -121,9 +121,13 @@ Oakville, Ontario L6J1H3
                   <div className="flex items-start">
                     <Globe className="h-5 w-5 text-[#D4AF37] mr-3 mt-0.5 flex-shrink-0" />
                     <div>
-                      <p className="font-medium text-blue-950">Accra, Ghana</p>
-                      <p className="text-gray-700">25 Independence Avenue, Osu</p>
-                      <p className="text-gray-700">Phone: +233 24 567 8901</p>
+                      <p className="font-medium text-blue-950">Shanghai, China </p>
+                      <p className="text-gray-700">Shanghai, China Office:
+2304-2218 Huangxing Road
+Hopson International Office Building, Wujiaochang
+Yangpu District, Shanghai
+</p>
+                      <p className="text-gray-700">Phone: +8615628807007</p>
                     </div>
                   </div>
                   <div className="flex items-start">

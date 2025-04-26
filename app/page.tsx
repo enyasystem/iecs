@@ -145,12 +145,12 @@ export default function Home() {
               </h2>
               <p className="text-lg text-gray-700 mb-6">
                 For over 18 years, International Education Consultancy Services has been the trusted partner for
-                students seeking quality education in Canada. With expertise spanning across 7 countries and
+                students seeking quality education in Canada, USA, UK, Europe and Australia. With expertise spanning across 7 countries and
                 comprehensive services from admission processing to settlement assistance, we've helped over 5,000
                 students achieve their educational dreams.
               </p>
               <p className="text-lg text-gray-700 mb-8">
-                Our team of experienced consultants provides personalized guidance throughout your educational journey,
+                Our team of experienced consultants provide personalized guidance throughout your educational journey,
                 ensuring a smooth transition to studying and living in Canada.
               </p>
               <div className="flex flex-wrap gap-6">
@@ -654,18 +654,18 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">
-            <PartnerLogo name="University of Toronto" />
-            <PartnerLogo name="McGill University" />
-            <PartnerLogo name="University of British Columbia" />
-            <PartnerLogo name="University of Waterloo" />
-            <PartnerLogo name="McMaster University" />
-            <PartnerLogo name="University of Alberta" />
-            <PartnerLogo name="Queen's University" />
-            <PartnerLogo name="Western University" />
-            <PartnerLogo name="Dalhousie University" />
-            <PartnerLogo name="York University" />
-            <PartnerLogo name="Ryerson University" />
-            <PartnerLogo name="Milton High School" />
+            <PartnerLogo name="University of Toronto" logo="https://upload.wikimedia.org/wikipedia/en/7/7e/University_of_Toronto_coat_of_arms.svg" />
+            <PartnerLogo name="McGill University" logo="https://upload.wikimedia.org/wikipedia/en/6/6d/McGill_University_Coat_of_Arms.svg" />
+            <PartnerLogo name="University of British Columbia" logo="https://upload.wikimedia.org/wikipedia/en/7/7b/University_of_British_Columbia_coat_of_arms.svg" />
+            <PartnerLogo name="University of Waterloo" logo="https://upload.wikimedia.org/wikipedia/en/2/2e/University_of_Waterloo_coat_of_arms.svg" />
+            <PartnerLogo name="McMaster University" logo="https://upload.wikimedia.org/wikipedia/en/7/7a/McMaster_University_coat_of_arms.svg" />
+            <PartnerLogo name="University of Alberta" logo="https://upload.wikimedia.org/wikipedia/en/7/7d/University_of_Alberta_coat_of_arms.svg" />
+            <PartnerLogo name="Queen's University" logo="https://upload.wikimedia.org/wikipedia/en/2/2e/Queen%27s_University_coat_of_arms.svg" />
+            <PartnerLogo name="Western University" logo="https://upload.wikimedia.org/wikipedia/en/6/6e/Western_University_Coat_of_Arms.svg" />
+            <PartnerLogo name="Dalhousie University" logo="https://upload.wikimedia.org/wikipedia/en/2/2a/Dalhousie_University_coat_of_arms.svg" />
+            <PartnerLogo name="York University" logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/York_University_logo.svg" />
+            <PartnerLogo name="Ryerson University" logo="https://upload.wikimedia.org/wikipedia/commons/2/2c/TMU_logo.svg" />
+            <PartnerLogo name="Milton High School" logo="/logos/milton-high-school.png" />
           </div>
         </div>
       </section>
