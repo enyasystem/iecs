@@ -107,24 +107,30 @@ const Footer = () => {
               {/* India Address */}
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-[#D4AF37] mt-0.5" />
-                <p className="text-gray-300">
-                  2nd Floor, 5/1, 1st Main Road, 1st Block
-                  <br />
-                  Koramangala, Bangalore 560034
-                  <br />
-                  India
-                </p>
+                <div>
+                  <p className="text-gray-300">
+                    2nd Floor, 5/1, 1st Main Road, 1st Block
+                    <br />
+                    Koramangala, Bangalore 560034
+                    <br />
+                    India
+                  </p>
+                  <p className="text-gray-300 mt-1">Phone: +91 80 1234 5678 <b>(WhatsApp Only)</b></p>
+                </div>
               </li>
               {/* China Address */}
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-[#D4AF37] mt-0.5" />
-                <p className="text-gray-300">
-                  Room 1801, Building 2, No. 333, Guoding Road
-                  <br />
-                  Yangpu District, Shanghai 200433
-                  <br />
-                  China
-                </p>
+                <div>
+                  <p className="text-gray-300">
+                    Room 1801, Building 2, No. 333, Guoding Road
+                    <br />
+                    Yangpu District, Shanghai 200433
+                    <br />
+                    China
+                  </p>
+                  <p className="text-gray-300 mt-1">Phone: +86 21 8765 4321 <b>(WhatsApp Only)</b></p>
+                </div>
               </li>
             </ul>
           </div>
