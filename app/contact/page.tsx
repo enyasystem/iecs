@@ -6,6 +6,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import ContactForm from "@/components/contact-form"
 import type { Metadata } from "next"
 import { BreadcrumbStructuredData } from "@/components/seo/structured-data"
+import BookAppointmentButton from "@/components/BookAppointmentButton"
 
 export const metadata: Metadata = {
   title: "Contact Us - Get in Touch with Our Team",
@@ -40,7 +41,7 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Information */}
-      <section className="w-full py-20 bg-white">
+      <section className="w-full py-20 bg-white" id="contact-form-section">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
@@ -115,7 +116,7 @@ Oakville, Ontario L6J1H3
                       <p className="font-medium text-blue-950">Lagos, Nigeria</p>
                       <p className="text-gray-700">59A Muritala Eletu way Osapa London</p>
                       <p className="text-gray-700">Lekki, Lagos</p>
-                      <p className="text-gray-700">Phone: +234 909 955 5573</p>
+                      <p className="text-gray-700">Phone: +234 909 955 5573 <b>(WhatsApp Only)</b></p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -127,7 +128,7 @@ Oakville, Ontario L6J1H3
 Hopson International Office Building, Wujiaochang
 Yangpu District, Shanghai
 </p>
-                      <p className="text-gray-700">Phone: +8615628807007</p>
+                      <p className="text-gray-700">Phone: +8615628807007<b>(WhatsApp Only)</b></p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -169,16 +170,20 @@ Yangpu District, Shanghai
             <TabsList className="grid w-full max-w-md mx-auto grid-cols-3 mb-12">
               <TabsTrigger value="toronto">Toronto</TabsTrigger>
               <TabsTrigger value="lagos">Lagos</TabsTrigger>
-              <TabsTrigger value="delhi">New Delhi</TabsTrigger>
+              <TabsTrigger value="delhi">Gujarat, India</TabsTrigger>
             </TabsList>
             <TabsContent value="toronto" className="w-full">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-video relative w-full">
-                  <Image
-                    src="/placeholder.svg?height=600&width=1200"
-                    alt="Toronto Office Map"
-                    fill
-                    className="object-cover"
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.7750995411693!2d-79.67263092383423!3d43.44441287111275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b5c8cf98a4775%3A0x6fadbdf85af67bd1!2s125%20Lakeshore%20Rd%20E%20%23300%2C%20Oakville%2C%20ON%20L6J%201H4%2C%20Canada!5e0!3m2!1sen!2sng!4v1745656067947!5m2!1sen!2sng"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="absolute inset-0"
                   />
                 </div>
                 <div className="p-6">
@@ -191,14 +196,17 @@ Yangpu District, Shanghai
                     Oakvile, Ontario L6J1H3
                   </p>
                   <div className="flex space-x-4">
-                    <Button variant="outline" size="sm">
-                      Get Directions
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Button>
-                    <Button size="sm">
-                      Book Appointment
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Button>
+                    <a
+                      href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.7750995411693!2d-79.67263092383423!3d43.44441287111275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b5c8cf98a4775%3A0x6fadbdf85af67bd1!2s125%20Lakeshore%20Rd%20E%20%23300%2C%20Oakville%2C%20ON%20L6J%201H4%2C%20Canada!5e0!3m2!1sen!2sng!4v1745656067947!5m2!1sen!2sng"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="outline" size="sm">
+                        Get Directions
+                        <ArrowRight className="ml-2 h-4 w-4" />
+                      </Button>
+                    </a>
+                    <BookAppointmentButton />
                   </div>
                 </div>
               </div>
@@ -206,11 +214,15 @@ Yangpu District, Shanghai
             <TabsContent value="lagos" className="w-full">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-video relative w-full">
-                  <Image
-                    src="/placeholder.svg?height=600&width=1200"
-                    alt="Lagos Office Map"
-                    fill
-                    className="object-cover"
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7929.2295725149015!2d3.5062295412742337!3d6.4434828241912285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s59A%20Muritala%20Eletu%20way%20Osapa%20London%20Lekki%20Lagos%20Nigeria!5e0!3m2!1sen!2sng!4v1745656788020!5m2!1sen!2sng"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="absolute inset-0"
                   />
                 </div>
                 <div className="p-6">
@@ -222,14 +234,17 @@ Yangpu District, Shanghai
                     Lekki, Lagos
                   </p>
                   <div className="flex space-x-4">
-                    <Button variant="outline" size="sm">
-                      Get Directions
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Button>
-                    <Button size="sm">
-                      Book Appointment
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Button>
+                    <a
+                      href="https://www.google.com/maps?q=59A+Muritala+Eletu+way+Osapa+London+Lekki+Lagos+Nigeria"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="outline" size="sm">
+                        Get Directions
+                        <ArrowRight className="ml-2 h-4 w-4" />
+                      </Button>
+                    </a>
+                    <BookAppointmentButton />
                   </div>
                 </div>
               </div>
@@ -237,31 +252,38 @@ Yangpu District, Shanghai
             <TabsContent value="delhi" className="w-full">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-video relative w-full">
-                  <Image
-                    src="/placeholder.svg?height=600&width=1200"
-                    alt="New Delhi Office Map"
-                    fill
-                    className="object-cover"
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14686.703510091573!2d72.51736305285604!3d23.0356701166303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s208%20Vatsal%20Avenue%20Nehru%20park%20Vastrapur%20Ahmedabad%20380015%20Gujarat%20India!5e0!3m2!1sen!2sng!4v1745658218412!5m2!1sen!2sng"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="absolute inset-0"
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-blue-950 mb-2">New Delhi Office</h3>
+                  <h3 className="text-xl font-bold text-blue-950 mb-2">Gujarat, India Office</h3>
                   <p className="text-gray-700 mb-4">
-                    42 Connaught Place
+                    208, Vatsal Avenue
                     <br />
-                    Central Delhi
+                    Nehru park, Vastrapur
                     <br />
-                    New Delhi, India
+                    Ahmedabad - 380015, Gujarat, India
                   </p>
                   <div className="flex space-x-4">
-                    <Button variant="outline" size="sm">
-                      Get Directions
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Button>
-                    <Button size="sm">
-                      Book Appointment
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Button>
+                    <a
+                      href="https://www.google.com/maps?q=208+Vatsal+Avenue+Nehru+park+Vastrapur+Ahmedabad+380015+Gujarat+India"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="outline" size="sm">
+                        Get Directions
+                        <ArrowRight className="ml-2 h-4 w-4" />
+                      </Button>
+                    </a>
+                    <BookAppointmentButton />
                   </div>
                 </div>
               </div>
