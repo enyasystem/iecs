@@ -58,7 +58,7 @@ export default function TeamPage() {
                   src="/placeholder.svg?height=400&width=300"
                   alt="Linda U. Okpala LL.B (Hons)"
                   fill
-                  className="object-cover"
+                  className="object-cover rounded-md"
                 />
               </div>
               <CardContent className="p-6">
@@ -81,9 +81,38 @@ export default function TeamPage() {
               </CardContent>
             </Card>
 
+             {/* Jeremy Lee Card */}
+             <Card className="overflow-hidden border-none shadow-lg">
+              <div className="relative h-80 w-full">
+                <Image
+                  src="/Jeremy Lee.jpg"
+                  alt="Jeremy Lee"
+                  fill
+                  className="object-contain bg-grey-200 rounded-md"
+                />
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-blue-950 mb-1">Jeremy Lee</h3>
+                <p className="text-[#D4AF37] font-medium mb-4">Director, Business Development (Asia)</p>
+                <p className="text-gray-700 mb-4">
+                  Jeremy leads our business development initiatives across Asia, building strong partnerships and expanding our reach in the region.
+                </p>
+                <div className="flex space-x-4">
+                  <Button variant="outline" size="sm" className="rounded-full">
+                    <Mail className="h-4 w-4 mr-2" />
+                    Email
+                  </Button>
+                  <Button variant="outline" size="sm" className="rounded-full">
+                    <Phone className="h-4 w-4 mr-2" />
+                    Call
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
             <Card className="overflow-hidden border-none shadow-lg">
               <div className="relative h-80 w-full">
-                <Image src="/placeholder.svg?height=400&width=300" alt="Michael Chen" fill className="object-cover" />
+                <Image src="/placeholder.svg?height=400&width=300" alt="Michael Chen" fill className="object-cover rounded-md" />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-blue-950 mb-1">Michael Chen</h3>
@@ -111,7 +140,7 @@ export default function TeamPage() {
                   src="/placeholder.svg?height=400&width=300"
                   alt="Dr. Olivia Patel"
                   fill
-                  className="object-cover"
+                  className="object-cover rounded-md"
                 />
               </div>
               <CardContent className="p-6">
@@ -133,6 +162,8 @@ export default function TeamPage() {
                 </div>
               </CardContent>
             </Card>
+
+           
           </div>
         </div>
       </section>
@@ -153,7 +184,7 @@ export default function TeamPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="overflow-hidden border-none shadow-md">
               <div className="relative h-64 w-full">
-                <Image src="/placeholder.svg?height=300&width=300" alt="James Wilson" fill className="object-cover" />
+                <Image src="/placeholder.svg?height=300&width=300" alt="James Wilson" fill className="object-cover rounded-md" />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-lg font-bold text-blue-950 mb-1">James Wilson</h3>
@@ -166,7 +197,7 @@ export default function TeamPage() {
 
             <Card className="overflow-hidden border-none shadow-md">
               <div className="relative h-64 w-full">
-                <Image src="/placeholder.svg?height=300&width=300" alt="Aisha Mohammed" fill className="object-cover" />
+                <Image src="/placeholder.svg?height=300&width=300" alt="Aisha Mohammed" fill className="object-cover rounded-md" />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-lg font-bold text-blue-950 mb-1">Aisha Mohammed</h3>
@@ -179,7 +210,7 @@ export default function TeamPage() {
 
             <Card className="overflow-hidden border-none shadow-md">
               <div className="relative h-64 w-full">
-                <Image src="/placeholder.svg?height=300&width=300" alt="David Kim" fill className="object-cover" />
+                <Image src="/placeholder.svg?height=300&width=300" alt="David Kim" fill className="object-cover rounded-md" />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-lg font-bold text-blue-950 mb-1">David Kim</h3>
@@ -196,7 +227,7 @@ export default function TeamPage() {
                   src="/placeholder.svg?height=300&width=300"
                   alt="Elena Rodriguez"
                   fill
-                  className="object-cover"
+                  className="object-cover rounded-md"
                 />
               </div>
               <CardContent className="p-6">
@@ -227,7 +258,7 @@ export default function TeamPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="overflow-hidden border-none shadow-md">
               <div className="relative h-64 w-full">
-                <Image src="/placeholder.svg?height=300&width=300" alt="Rebecca Taylor" fill className="object-cover" />
+                <Image src="/placeholder.svg?height=300&width=300" alt="Rebecca Taylor" fill className="object-cover rounded-md" />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-lg font-bold text-blue-950 mb-1">Rebecca Taylor</h3>
@@ -240,7 +271,7 @@ export default function TeamPage() {
 
             <Card className="overflow-hidden border-none shadow-md">
               <div className="relative h-64 w-full">
-                <Image src="/placeholder.svg?height=300&width=300" alt="Thomas Nguyen" fill className="object-cover" />
+                <Image src="/placeholder.svg?height=300&width=300" alt="Thomas Nguyen" fill className="object-cover rounded-md" />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-lg font-bold text-blue-950 mb-1">Thomas Nguyen</h3>
@@ -253,7 +284,7 @@ export default function TeamPage() {
 
             <Card className="overflow-hidden border-none shadow-md">
               <div className="relative h-64 w-full">
-                <Image src="/placeholder.svg?height=300&width=300" alt="Sophia Lee" fill className="object-cover" />
+                <Image src="/placeholder.svg?height=300&width=300" alt="Sophia Lee" fill className="object-cover rounded-md" />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-lg font-bold text-blue-950 mb-1">Sophia Lee</h3>
@@ -266,7 +297,7 @@ export default function TeamPage() {
 
             <Card className="overflow-hidden border-none shadow-md">
               <div className="relative h-64 w-full">
-                <Image src="/placeholder.svg?height=300&width=300" alt="Marcus Johnson" fill className="object-cover" />
+                <Image src="/placeholder.svg?height=300&width=300" alt="Marcus Johnson" fill className="object-cover rounded-md" />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-lg font-bold text-blue-950 mb-1">Marcus Johnson</h3>

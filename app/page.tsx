@@ -39,7 +39,7 @@ import {
 } from "@/components/seo/structured-data"
 
 export const metadata: Metadata = {
-  title: "Home - Your Pathway to World-Class Education in Canada",
+  title: "IECS - Your Pathway to World-Class Education in Canada",
   description:
     "International Education Consultancy Services has been guiding students to quality education in Canada since 2006. Get expert guidance for admissions, immigration, and settlement.",
   alternates: {
@@ -629,14 +629,14 @@ export default function Home() {
               name="Kwame Osei"
               country="Ghana"
               program="Engineering, McGill University"
-              image="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+              image="https://images.unsplash.cooto-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
             />
             <TestimonialCard
               quote="From application to arrival, IECS was with me every step of the way. Their settlement services made my transition to Canada smooth and stress-free."
               name="Daniel Adeyemi"
               country="Nigeria"
               program="Computer Science, University of Waterloo"
-              image="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+              image="https://ges.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
             />
           </div>
         </div>
