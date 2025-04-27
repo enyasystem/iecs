@@ -58,8 +58,8 @@ const Navigation = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <div className="bg-white rounded-md p-1 flex items-center">
-              <Image src="/images/iecs_logo.png" alt="IECS Logo" width={120} height={40} className="h-8 w-auto" />
+            <div className="w-20 h-20 rounded-full overflow-hidden flex items-center justify-center bg-white shadow-md border border-gray-200 transition-transform duration-300 hover:scale-110">
+              <Image src="/images/iecs_logo.jpg" alt="IECS Logo" width={80} height={80} className="object-cover w-full h-full" />
             </div>
           </Link>
 
