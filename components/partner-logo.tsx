@@ -24,7 +24,13 @@ const PartnerLogo = ({ name, logo, link }: PartnerLogoProps) => {
           {logoImage}
         </Link>
       ) : logoImage}
-      <p className="text-center text-blue-950 font-medium text-sm mt-1">{name}</p>
+      {link ? (
+        <Link href={link} target="_blank" rel="noopener noreferrer" className="text-center text-blue-950 font-medium text-sm mt-1 hover:underline">
+          {name}
+        </Link>
+      ) : (
+        <p className="text-center text-blue-950 font-medium text-sm mt-1">{name}</p>
+      )}
     </div>
   )
 }
