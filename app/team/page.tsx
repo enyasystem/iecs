@@ -76,7 +76,7 @@ export default function TeamPage() {
                       Email
                     </Button>
                   </Link>
-                  <Link href="https://wa.me/12345678901" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://wa.me/2349099555573" target="_blank" rel="noopener noreferrer">
                     <Button variant="outline" size="sm" className="rounded-full">
                       <Phone className="h-4 w-4 mr-2" />
                       Call
@@ -110,7 +110,7 @@ export default function TeamPage() {
                       Email
                     </Button>
                   </Link>
-                  <Link href="https://wa.me/19876543210" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://wa.me/2349099555573" target="_blank" rel="noopener noreferrer">
                     <Button variant="outline" size="sm" className="rounded-full">
                       <Phone className="h-4 w-4 mr-2" />
                       Call
@@ -144,7 +144,7 @@ export default function TeamPage() {
                       Email
                     </Button>
                   </Link>
-                  <Link href="https://wa.me/11223344556" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://wa.me/2349099555573" target="_blank" rel="noopener noreferrer">
                     <Button variant="outline" size="sm" className="rounded-full">
                       <Phone className="h-4 w-4 mr-2" />
                       Call
