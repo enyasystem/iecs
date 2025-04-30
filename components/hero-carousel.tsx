@@ -41,7 +41,7 @@ const slides: Slide[] = [
   },
   {
     image:
-      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "https://canadainternationaleducation.ca/wp-content/uploads/2020/01/accomplishment-ceremony-education-graduation-267885.jpg",
     title: "Achieve Your Educational Dreams in Canada",
     subtitle: "Expert Guidance for International Students",
     cta: {

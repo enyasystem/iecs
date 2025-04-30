@@ -5,10 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "build-export": "next build && cd out && zip -r ../build.zip .",
-    "export": "next build && next export"
+    "build-zip": "npm run build && powershell Compress-Archive -Path ./out/* -DestinationPath ./build.zip -Force"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

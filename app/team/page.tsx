@@ -70,14 +70,18 @@ export default function TeamPage() {
                   navigate the complex process of studying abroad.
                 </p>
                 <div className="flex space-x-4">
-                  <Button variant="outline" size="sm" className="rounded-full">
-                    <Mail className="h-4 w-4 mr-2" />
-                    Email
-                  </Button>
-                  <Button variant="outline" size="sm" className="rounded-full">
-                    <Phone className="h-4 w-4 mr-2" />
-                    Call
-                  </Button>
+                  <Link href="mailto:linda@iecservices.org" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm" className="rounded-full">
+                      <Mail className="h-4 w-4 mr-2" />
+                      Email
+                    </Button>
+                  </Link>
+                  <Link href="https://wa.me/12345678901" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm" className="rounded-full">
+                      <Phone className="h-4 w-4 mr-2" />
+                      Call
+                    </Button>
+                  </Link>
                 </div>
               </CardContent>
             </Card>
@@ -100,14 +104,18 @@ export default function TeamPage() {
                   Jeremy leads our business development initiatives across Asia, building strong partnerships and expanding our reach in the region.
                 </p>
                 <div className="flex space-x-4">
-                  <Button variant="outline" size="sm" className="rounded-full">
-                    <Mail className="h-4 w-4 mr-2" />
-                    Email
-                  </Button>
-                  <Button variant="outline" size="sm" className="rounded-full">
-                    <Phone className="h-4 w-4 mr-2" />
-                    Call
-                  </Button>
+                  <Link href="mailto:jeremy@iecservices.org" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm" className="rounded-full">
+                      <Mail className="h-4 w-4 mr-2" />
+                      Email
+                    </Button>
+                  </Link>
+                  <Link href="https://wa.me/19876543210" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm" className="rounded-full">
+                      <Phone className="h-4 w-4 mr-2" />
+                      Call
+                    </Button>
+                  </Link>
                 </div>
               </CardContent>
             </Card>
@@ -115,59 +123,33 @@ export default function TeamPage() {
             <Card className="overflow-hidden border-none shadow-lg">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
-                  alt="Michael Chen"
+                  src="/Amie Okpala.jpg"
+                  alt="Amie Okpala"
                   width={160}
                   height={160}
                   className="object-cover w-full h-full"
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-blue-950 mb-1">Michael Chen</h3>
+                <h3 className="text-xl font-bold text-blue-950 mb-1">Amie Okpala</h3>
                 <p className="text-[#D4AF37] font-medium mb-4">Chief Operations Officer</p>
                 <p className="text-gray-700 mb-4">
-                  Michael oversees the day-to-day operations of IECS, ensuring that our services are delivered
+                  Amie oversees the day-to-day operations of IECS, ensuring that our services are delivered
                   efficiently and effectively to all clients.
                 </p>
                 <div className="flex space-x-4">
-                  <Button variant="outline" size="sm" className="rounded-full">
-                    <Mail className="h-4 w-4 mr-2" />
-                    Email
-                  </Button>
-                  <Button variant="outline" size="sm" className="rounded-full">
-                    <Phone className="h-4 w-4 mr-2" />
-                    Call
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="overflow-hidden border-none shadow-lg">
-              <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
-                <Image
-                  src="/placeholder.svg?height=400&width=300"
-                  alt="Dr. Olivia Patel"
-                  width={160}
-                  height={160}
-                  className="object-cover w-full h-full"
-                />
-              </div>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-blue-950 mb-1">Dr. Olivia Patel</h3>
-                <p className="text-[#D4AF37] font-medium mb-4">Director of Academic Affairs</p>
-                <p className="text-gray-700 mb-4">
-                  Dr. Patel leads our academic team, providing expert guidance on program selection, university
-                  applications, and academic requirements.
-                </p>
-                <div className="flex space-x-4">
-                  <Button variant="outline" size="sm" className="rounded-full">
-                    <Mail className="h-4 w-4 mr-2" />
-                    Email
-                  </Button>
-                  <Button variant="outline" size="sm" className="rounded-full">
-                    <Phone className="h-4 w-4 mr-2" />
-                    Call
-                  </Button>
+                  <Link href="mailto:amie@iecservices.org" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm" className="rounded-full">
+                      <Mail className="h-4 w-4 mr-2" />
+                      Email
+                    </Button>
+                  </Link>
+                  <Link href="https://wa.me/11223344556" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm" className="rounded-full">
+                      <Phone className="h-4 w-4 mr-2" />
+                      Call
+                    </Button>
+                  </Link>
                 </div>
               </CardContent>
             </Card>
