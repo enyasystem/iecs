@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     siteName: "International Education Consultancy Services",
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: "/favicon.ico",
         width: 1200,
         height: 630,
         alt: "IECS - International Education Consultancy Services",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     title: "IECS - International Education Consultancy Services",
     description:
       "Your trusted partner for educational opportunities in Canada since 2006. We provide comprehensive services for international students seeking quality education.",
-    images: ["/images/iecs_logo.png"],
+    images: ["/favicon.ico"],
   },
   robots: {
     index: true,
@@ -74,12 +74,12 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/images/iecs_logo.png",
-    shortcut: "/images/iecs_logo.png",
-    apple: "/images/iecs_logo.png",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
     other: {
       rel: "apple-touch-icon-precomposed",
-      url: "/images/iecs_logo.png",
+      url: "/favicon.ico",
     },
   },
   verification: {
