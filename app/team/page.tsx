@@ -227,6 +227,26 @@ export default function TeamPage() {
                 </p>
               </CardContent>
             </Card>
+
+            <Card className="overflow-hidden border-none shadow-md">
+  <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
+    <Image
+      src="/placeholder.svg?height=300&width=300"
+      alt="Priya Desai"
+      width={160}
+      height={160}
+      className="object-cover w-full h-full"
+    />
+  </div>
+  <CardContent className="p-6">
+    <h3 className="text-lg font-bold text-blue-950 mb-1">Priya Desai</h3>
+    <p className="text-[#D4AF37] font-medium mb-3">Career & Internship Coordinator</p>
+    <p className="text-gray-700 text-sm mb-4">
+      Supports students in securing internships and planning career pathways after graduation.
+    </p>
+  </CardContent>
+</Card>
+
           </div>
         </div>
       </section>

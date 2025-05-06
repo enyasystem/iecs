@@ -50,17 +50,15 @@ const Navigation = () => {
 
   return (
     <header
-      className={`sticky top-0 w-full z-50 transition-all duration-300 ${
-        scrolled || pathname !== "/" ? "bg-blue-950/80 shadow-md backdrop-blur-md" : "bg-transparent backdrop-blur-none"
-      }`}
-      style={{ background: scrolled || pathname !== "/" ? undefined : "none" }}
+      className={`sticky top-0 w-full z-50 transition-all duration-300 bg-blue-950`}
+      style={{ background: undefined }}
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <div className="w-20 h-20 rounded-lg overflow-hidden flex items-center justify-center bg-white shadow-md border border-gray-200 transition-transform duration-300 hover:scale-110">
-              <Image src="/images/iecs_logo.jpg" alt="IECS Logo" width={80} height={80} className="object-cover w-full h-full" />
+            <div className="w-20 h-20 flex items-center justify-center transition-transform duration-300 hover:scale-110">
+              <Image src="/images/iecs_logo.png" alt="IECS Logo" width={80} height={80} className="object-cover w-full h-full" />
             </div>
           </Link>
 
@@ -122,7 +120,7 @@ const Navigation = () => {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="lg:hidden mt-4 pb-4">
-            <div className="flex flex-col space-y-2 bg-white rounded-lg shadow-lg p-4">
+            <div className="flex flex-col space-y-2 bg-white rounded-lg p-4">
               {navLinks.map((link) =>
                 link.dropdown ? (
                   <div key={link.name} className="flex flex-col">
