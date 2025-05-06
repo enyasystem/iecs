@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react"
 
 const Footer = () => {
@@ -10,7 +11,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">IECS</h3>
+            <div className="mb-4 flex items-center">
+              <Image src="/images/iecs_logo.png" alt="IECS Logo" width={60} height={60} className="object-contain mr-3" />
+              <h3 className="text-xl font-bold">IECS</h3>
+            </div>
             <p className="mb-4 text-gray-300">
               International Education Consultancy Services Inc. has been guiding students to quality education in Canada
               since 2006.
