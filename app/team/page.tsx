@@ -157,7 +157,7 @@ export default function TeamPage() {
             <Card className="overflow-hidden border-none shadow-lg">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="/placeholder-user.jpg"
                   alt="Gina Lum"
                   width={160}
                   height={160}
@@ -208,7 +208,7 @@ export default function TeamPage() {
             <Card className="overflow-hidden border-none shadow-md">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://randomuser.me/api/portraits/men/32.jpg"
                   alt="James Wilson"
                   width={160}
                   height={160}
@@ -227,7 +227,7 @@ export default function TeamPage() {
             <Card className="overflow-hidden border-none shadow-md">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://randomuser.me/api/portraits/women/44.jpg"
                   alt="Aisha Mohammed"
                   width={160}
                   height={160}
@@ -246,7 +246,7 @@ export default function TeamPage() {
             <Card className="overflow-hidden border-none shadow-md">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://randomuser.me/api/portraits/men/67.jpg"
                   alt="David Kim"
                   width={160}
                   height={160}
@@ -265,7 +265,7 @@ export default function TeamPage() {
             <Card className="overflow-hidden border-none shadow-md">
   <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
     <Image
-      src="/placeholder.svg?height=300&width=300"
+      src="https://randomuser.me/api/portraits/women/68.jpg"
       alt="Priya Desai"
       width={160}
       height={160}
@@ -302,7 +302,7 @@ export default function TeamPage() {
             <Card className="overflow-hidden border-none shadow-md">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://randomuser.me/api/portraits/women/22.jpg"
                   alt="Rebecca Taylor"
                   width={160}
                   height={160}
@@ -321,7 +321,7 @@ export default function TeamPage() {
             <Card className="overflow-hidden border-none shadow-md">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://randomuser.me/api/portraits/men/12.jpg"
                   alt="Thomas Nguyen"
                   width={160}
                   height={160}
@@ -340,7 +340,7 @@ export default function TeamPage() {
             <Card className="overflow-hidden border-none shadow-md">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://randomuser.me/api/portraits/women/56.jpg"
                   alt="Sophia Lee"
                   width={160}
                   height={160}
@@ -359,7 +359,7 @@ export default function TeamPage() {
             <Card className="overflow-hidden border-none shadow-md">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://randomuser.me/api/portraits/men/45.jpg"
                   alt="Marcus Johnson"
                   width={160}
                   height={160}
