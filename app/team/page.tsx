@@ -51,7 +51,7 @@ export default function TeamPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="overflow-hidden border-none shadow-lg">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
                 <Image
@@ -153,6 +153,40 @@ export default function TeamPage() {
                 </div>
               </CardContent>
             </Card>
+
+            <Card className="overflow-hidden border-none shadow-lg">
+              <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
+                <Image
+                  src="/placeholder-user.jpg"
+                  alt="Gina Lum"
+                  width={160}
+                  height={160}
+                  className="object-cover w-full h-full"
+                />
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-blue-950 mb-1">Gina Lum</h3>
+                <p className="text-[#D4AF37] font-medium mb-4">Director, Business Development (Canada)</p>
+                <p className="text-gray-700 mb-4">
+                  Gina leads business development across Canada through IECS Canada Corp, our subsidiary business
+                  previously known as My Mortgage Blueprint Corp.
+                </p>
+                <div className="flex space-x-4">
+                  <Link href="mailto:info@iecservices.org" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm" className="rounded-full">
+                      <Mail className="h-4 w-4 mr-2" />
+                      Email
+                    </Button>
+                  </Link>
+                  <Link href="https://wa.me/2349099555573" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm" className="rounded-full">
+                      <Phone className="h-4 w-4 mr-2" />
+                      Call
+                    </Button>
+                  </Link>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -174,7 +208,7 @@ export default function TeamPage() {
             <Card className="overflow-hidden border-none shadow-md">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://randomuser.me/api/portraits/men/32.jpg"
                   alt="James Wilson"
                   width={160}
                   height={160}
@@ -193,7 +227,7 @@ export default function TeamPage() {
             <Card className="overflow-hidden border-none shadow-md">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://randomuser.me/api/portraits/women/44.jpg"
                   alt="Aisha Mohammed"
                   width={160}
                   height={160}
@@ -212,7 +246,7 @@ export default function TeamPage() {
             <Card className="overflow-hidden border-none shadow-md">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://randomuser.me/api/portraits/men/67.jpg"
                   alt="David Kim"
                   width={160}
                   height={160}
@@ -231,7 +265,7 @@ export default function TeamPage() {
             <Card className="overflow-hidden border-none shadow-md">
   <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
     <Image
-      src="/placeholder.svg?height=300&width=300"
+      src="https://randomuser.me/api/portraits/women/68.jpg"
       alt="Priya Desai"
       width={160}
       height={160}
@@ -268,7 +302,7 @@ export default function TeamPage() {
             <Card className="overflow-hidden border-none shadow-md">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://randomuser.me/api/portraits/women/22.jpg"
                   alt="Rebecca Taylor"
                   width={160}
                   height={160}
@@ -287,7 +321,7 @@ export default function TeamPage() {
             <Card className="overflow-hidden border-none shadow-md">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://randomuser.me/api/portraits/men/12.jpg"
                   alt="Thomas Nguyen"
                   width={160}
                   height={160}
@@ -306,7 +340,7 @@ export default function TeamPage() {
             <Card className="overflow-hidden border-none shadow-md">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://randomuser.me/api/portraits/women/56.jpg"
                   alt="Sophia Lee"
                   width={160}
                   height={160}
@@ -325,7 +359,7 @@ export default function TeamPage() {
             <Card className="overflow-hidden border-none shadow-md">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mt-8 mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://randomuser.me/api/portraits/men/45.jpg"
                   alt="Marcus Johnson"
                   width={160}
                   height={160}
@@ -372,4 +406,3 @@ export default function TeamPage() {
     </main>
   )
 }
-
