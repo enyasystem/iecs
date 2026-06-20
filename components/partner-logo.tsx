@@ -1,4 +1,5 @@
 import { Building } from "lucide-react"
+import Image from "next/image"
 import Link from "next/link"
 
 interface PartnerLogoProps {
@@ -11,7 +12,14 @@ const PartnerLogo = ({ name, logo, link }: PartnerLogoProps) => {
   const logoImage = (
     <div className="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center mb-3 overflow-hidden">
       {logo ? (
-        <img src={logo} alt={name + ' logo'} className="object-cover w-16 h-16 rounded-full" />
+        <Image
+          src={logo}
+          alt={name + " logo"}
+          width={64}
+          height={64}
+          sizes="64px"
+          className="object-cover w-16 h-16 rounded-full"
+        />
       ) : (
         <Building className="h-8 w-8 text-blue-950" />
       )}
@@ -36,4 +44,3 @@ const PartnerLogo = ({ name, logo, link }: PartnerLogoProps) => {
 }
 
 export default PartnerLogo
-

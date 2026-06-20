@@ -170,7 +170,7 @@ export default function PrivacyPolicy() {
               <br />
               Oakvile, Ontario L6J1H3
               <br />
-              Phone: (289) 644-2285
+              Phone: (289) 856-8336
                 
               <br />
               Phone: (289) 644-2288
@@ -190,4 +190,3 @@ export default function PrivacyPolicy() {
     </main>
   )
 }
-

@@ -1,3 +1,8 @@
+import path from "path"
+import { fileURLToPath } from "url"
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
+
 let userConfig = undefined
 try {
   // try to import ESM first
@@ -19,6 +24,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  outputFileTracingRoot: __dirname,
   images: {
     unoptimized: true,
   },

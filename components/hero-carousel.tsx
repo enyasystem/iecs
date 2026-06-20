@@ -127,7 +127,8 @@ export default function HeroCarousel() {
             src={slide.image || "/placeholder.svg"}
             alt={`Slide ${index + 1}`}
             fill
-            priority
+            priority={index === 0}
+            sizes="100vw"
             className="object-cover"
           />
         </div>
@@ -202,4 +203,3 @@ export default function HeroCarousel() {
     </section>
   )
 }
-

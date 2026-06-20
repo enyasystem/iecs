@@ -184,7 +184,7 @@ export default function TermsOfService() {
               <br />
               Canada
               <br />
-              Phone: (289) 644-2285
+              Phone: (289) 856-8336
               <br />
               (289) 644-2288
               <br />
@@ -202,4 +202,3 @@ export default function TermsOfService() {
     </main>
   )
 }
-

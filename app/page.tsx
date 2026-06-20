@@ -50,11 +50,6 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center">
-      {/* Hero Background Layer */}
-      <div className="absolute top-0 left-0 w-full h-[60vh] z-0">
-        <HeroCarousel />
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-950/60 to-transparent" />
-      </div>
       {/* Content Layer */}
       <div className="relative z-10 w-full">
         <OrganizationStructuredData
@@ -864,7 +859,7 @@ export default function Home() {
                     </div>
                     <div>
                       <p className="font-medium text-blue-950">Call Us</p>
-                      <p className="text-gray-700">Phone: (289) 644-2285</p>
+                      <p className="text-gray-700">Phone: (289) 856-8336</p>
                       <p className="text-gray-700">Phone: (289) 644-2288</p>
                       <p className="text-gray-700">
                         <a
@@ -969,4 +964,3 @@ Suite 300                        <br />
     </main>
   )
 }
-
