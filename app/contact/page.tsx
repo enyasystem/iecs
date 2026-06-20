@@ -61,7 +61,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-medium text-blue-950 text-lg">Call Us</p>
-                    <p className="text-gray-700">Phone: (289) 644-2285</p>
+                    <p className="text-gray-700">Phone: (289) 856-8336</p>
                     <p className="text-gray-700">Phone: (289) 644-2288</p>
                     <p className="text-gray-700">WhatsApp: 09099555573</p>
                     <p className="text-gray-700 text-sm mt-1">Monday to Friday, 9:00 AM - 5:00 PM EST</p>
@@ -395,4 +395,3 @@ Yangpu District, Shanghai
     </main>
   )
 }
-
